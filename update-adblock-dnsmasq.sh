@@ -12,7 +12,7 @@
 #/config/user-data/update-adblock-dnsmasq.sh
 #
 #check if all went fine by nslookup on a box that uses your USG as DNS (default from DHCP)
-#>nslookup zyban.1.p21.info (should return address: 0.0.0.0)
+#>nslookup 01cn.net (should return address: 0.0.0.0)
 #
 #crontab -l should show you now a line to automatically update once a day
 #
