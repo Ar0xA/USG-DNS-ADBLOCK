@@ -1,6 +1,7 @@
 <h1>Ubiquiti USG DNS Based adblocker</h1>
 
-<b>NOTE: after a firmware upgrade, the script needs to be executed again manually to re-create the crontab job and refill the dnsmasq list.</b>
+<b>NOTE: after a firmware upgrade, the script needs to be executed again manually to re-create the crontab job and refill the dnsmasq list. <br>
+So after a firmware upgrade, log in using SSH, sudo to root and run /config/user-data/update-adblock-dnsmasq.sh</b>
 <br>
 <h1>versions</h1>
 V.1 added pi-hole domains as suggsted by @recrudesce 
