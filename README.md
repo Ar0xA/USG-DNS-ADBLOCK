@@ -4,8 +4,11 @@
 So after a firmware upgrade, log in using SSH, sudo to root and run /config/user-data/update-adblock-dnsmasq.sh</b>
 <br>
 <h1>versions</h1>
-V.1 added pi-hole domains as suggsted by @recrudesce 
-
+20171121<br>
+First release<br>
+-added pi-hole domains as suggsted by @recrudesce <br>
+-added https://github.com/notracking/hosts-blocklists<br>
+<br>
 <h1>Howto install</h1>
 
 SSH into your USG:<br>
