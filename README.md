@@ -1,8 +1,11 @@
 <h1>Ubiquiti USG DNS Based adblocker</h1>
 
-<b>NOTE: after a firmware upgrade, the script needs to be executed again manually to re-create the crontab job and refill the dnsmasq list. <br>
+<b>NOTE: after a firmware upgrade, the script needs to be executed again manually to re-create the crontab job and refill the dnsmasq list. <br><br>
 So after a firmware upgrade, log in using SSH, sudo to root and run /config/user-data/update-adblock-dnsmasq.sh</b>
 <br>
+<h1>What does this do</h1>
+This uses your <a href="https://www.ubnt.com/unifi-routing/usg/">Ubiquiti Security Gateway</a> device as a DNS blackhole, much like <a href="https://pi-hole.net/">pi-hole</a> does. It automatically, daily, downloads various known and trusted blacklists for advertisement, spyware, malware and tracking networks and makes it so that their DNS address resolves to 0.0.0.0 instead of the actual IP address. The result is that no data is downloaded from, or uploaded to, those networks.<br>
+
 <h1>versions</h1>
 20171121<br>
 First release<br>
