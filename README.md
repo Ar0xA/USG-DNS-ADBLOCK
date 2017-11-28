@@ -12,7 +12,7 @@ First release<br>
 -added pi-hole domains as suggsted by @recrudesce <br>
 -added https://github.com/notracking/hosts-blocklists<br>
 <br>
-<h1>Howto install</h1>
+<h1>How to install</h1>
 
 SSH into your USG:<br>
 <br>
