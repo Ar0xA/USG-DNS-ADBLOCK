@@ -99,3 +99,5 @@ r2.sn-hp57ynee.googlevideo.com
 r3.sn-5hnednlk.googlevideo.com
 r3.sn-32o-5hne.googlevideo.com
 r3.sn-5hne6nlr.googlevideo.com
+r1.sn-5hne6n7s.googlevideo.com
+r2.sn-32o-5hne.googlevideo.com
