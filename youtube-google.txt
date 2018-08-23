@@ -127,3 +127,8 @@ r2---sn-5hnekn7l.googlevideo.com
 r1---sn-5hne6nsz.googlevideo.com
 r2.sn-5hnekn7l.googlevideo.com
 r1.sn-5hne6nsz.googlevideo.com
+r5---sn-32o-5hne.googlevideo.com
+r5---sn-5hne6n7l.googlevideo.com
+r5---sn-32o-5hnl.googlevideo.com
+r3---sn-32o-5hnl.googlevideo.com
+r1.sn-o097znl6.googlevideo.com
