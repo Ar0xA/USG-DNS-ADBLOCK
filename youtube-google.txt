@@ -117,4 +117,8 @@ r7.sn-32o-5hnl.googlevideo.com
 r1.sn-32o-5hne.googlevideo.com
 r1---sn-32o-5hne.googlevideo.com
 r4---sn-32o-5hne.googlevideo.com
-r2---sn-32o-5hne.googlevideo.com
+r1---sn-32o-5hnl.googlevideo.com
+r1---sn-32o-5hne.googlevideo.com
+r2---sn-5go7yn7e.googlevideo.com
+r1---sn-32o-5hnl.googlevideo.com
+r8---sn-32o-5hnl.googlevideo.com
