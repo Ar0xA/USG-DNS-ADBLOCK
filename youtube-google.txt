@@ -141,7 +141,6 @@ r4.sn-hp57ynel.googlevideo.com
 r1---sn-o097znl6.googlevideo.com
 r5---sn-32o-5hne.googlevideo.com
 r2---sn-5hne6nsz.googlevideo.com
-r4---sn-5hnekn7d.googlevideo.com
 r4---sn-5hnedn7l.googlevideo.com
 r6---sn-5hnednlk.googlevideo.com
 r6---sn-32o-5hne.googlevideo.com
