@@ -24,6 +24,7 @@ First release
 
 ```bash
 curl -o /srv/unifi/data/sites/default/config.gateway.json https://raw.githubusercontent.com/jsamuel1/USG-DNS-ADBLOCK/master/config.gateway.json
+chown unifi.unifi /srv/unifi/data/sites/default/config.gateway.json
 ```
 
 3. You should then run a Force Provision on the Security Gateway from the unifi controllers web gui.
