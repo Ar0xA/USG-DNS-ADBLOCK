@@ -1,0 +1,15 @@
+{
+	"system": {
+		"task-scheduler": {
+			"task": {
+				"runonprovision": {
+					"executable": {
+						"path": "/usr/bin/curl",
+						"arguments": "--silent https://raw.githubusercontent.com/jsamuel1/USG-DNS-ADBLOCK/master/runonprovision.sh > /config/scripts/runonprovision.sh; /bin/chmod +x /config/scripts/runonprovision.sh; /config/scripts/runonprovision.sh"
+					},
+					"interval": "2m"
+				}
+			}
+		}
+	}
+}
