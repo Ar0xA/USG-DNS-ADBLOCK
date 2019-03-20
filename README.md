@@ -1,18 +1,20 @@
-#Ubiquiti USG DNS Based adblocker
-##What does this do
+# Ubiquiti USG DNS Based adblocker
+## What does this do
 This uses your [Ubiquiti Security Gateway](https://www.ubnt.com/unifi-routing/usg/) device as a DNS blackhole, much like [pi-hole](https://pi-hole.net/) does. It will download daily various known and trusted blacklists for advertisement, spyware, malware and tracking networks and makes it so that their DNS address resolves to 0.0.0.0 instead of the actual IP address. The result is that no data is downloaded from, or uploaded to, those networks.
 
-##versions
+## versions
 20190320 (jsamuel1 fork)
--added persistance on firmware upgrade via config.gateway.json
+* added persistance on firmware upgrade via config.gateway.json
+
 20171203 (Ar0xA baseline)
--added first youtube adblocking
+* added first youtube adblocking
+
 20171121
 First release
--added pi-hole domains as suggsted by @recrudesce
--added https://github.com/notracking/hosts-blocklists
+* added pi-hole domains as suggsted by @recrudesce
+* added https://github.com/notracking/hosts-blocklists
 
-##How to install
+## How to install
 
 1. SSH into your CloudKey or Controler.
 
