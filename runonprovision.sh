@@ -18,7 +18,7 @@ save >> ${logFile}
 
 #end no edit
 
-/usr/bin/curl --silent -o /config/user-data/update-adblock-dnsmasq.sh https://raw.githubusercontent.com/jsamuel1/USG-DNS-ADBLOCK/master/update-adblock-dnsmasq.sh
+/usr/bin/curl --silent -o /config/user-data/update-adblock-dnsmasq.sh https://raw.githubusercontent.com/ar0xa/USG-DNS-ADBLOCK/master/update-adblock-dnsmasq.sh
 sudo /bin/chmod a+x /config/user-data/update-adblock-dnsmasq.sh
 sudo /config/user-data/update-adblock-dnsmasq.sh
 

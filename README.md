@@ -3,10 +3,10 @@
 This uses your [Ubiquiti Security Gateway](https://www.ubnt.com/unifi-routing/usg/) device as a DNS blackhole, much like [pi-hole](https://pi-hole.net/) does. It will download daily various known and trusted blacklists for advertisement, spyware, malware and tracking networks and makes it so that their DNS address resolves to 0.0.0.0 instead of the actual IP address. The result is that no data is downloaded from, or uploaded to, those networks.
 
 ## versions
-20190320 (jsamuel1 fork)
+20190320 (@jsamuel1)
 * added persistance on firmware upgrade via config.gateway.json
 
-20171203 (Ar0xA baseline)
+20171203 (Ar0xA)
 * added first youtube adblocking
 
 20171121
@@ -23,7 +23,7 @@ First release
 * On a CloudKey, with the default site, the command to run will be:
 
 ```bash
-curl -o /srv/unifi/data/sites/default/config.gateway.json https://raw.githubusercontent.com/jsamuel1/USG-DNS-ADBLOCK/master/config.gateway.json
+curl -o /srv/unifi/data/sites/default/config.gateway.json https://raw.githubusercontent.com/ar0xa/USG-DNS-ADBLOCK/master/config.gateway.json
 chown unifi.unifi /srv/unifi/data/sites/default/config.gateway.json
 ```
 
